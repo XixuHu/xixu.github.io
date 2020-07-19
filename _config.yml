@@ -2,13 +2,10 @@
 # Site settings
 title: Xixu Hu
 email:
-description: > # this means to ignore newlines until "baseurl:"
-A bachelor of Statistics
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: My homepage
 
-url: "" # the base hostname & protocol for your site
+  
+url: "https://xixuhu.github.io/" # the base hostname & protocol for your site
 
 # User setting
 owner:
