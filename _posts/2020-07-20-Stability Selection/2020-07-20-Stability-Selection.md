@@ -49,10 +49,19 @@ $$
 \end{align*}
 $$
 
-**正则化路径**是每个变量的系数随正则化参数变化的曲线；**稳定性路径**是当随机选取数据的一部分时，每个变量被选中的概率。对一个给定的惩罚系数$\lambda$，被选出的集合$\hat{S}^{\lambda}$是(隐式的)样本指标集的函数$I=\{1, \ldots, n\}$。
+**正则化路径**是每个变量的系数随正则化参数变化的曲线；**稳定性路径**是当随机选取数据的一部分时，每个变量被选中的概率。对一个给定的惩罚系数$\lambda$，被选出的集合$\hat{S}^{\lambda}$是(隐式的)样本指标集的函数$I=\{1, \ldots, n\}$。我们记$\hat{S}^{\lambda}=\hat{S}^{\lambda}(I)$来表示这种依赖性。
 
+`Def`：**入选概率**
 
+记$I'$为$\{1, \ldots, n\}$的一个大小为$\lfloor n / 2\rfloor$无放回子指标集，对特征集的任何子集$K$来说，他的入选概率定义为
+$$
+\hat{\Pi}_{K}^{\lambda}=P^{*}\left\{K \subseteq \hat{S}^{\lambda}(I)\right\}
+$$
+选择$\lfloor n / 2\rfloor$是因为这是最接近bootstrap的采样方式，同时可以兼顾计算上的便利。(理论保证：Freedman, 1977;
+
+Büchlmann and Yu, 2002)
 
 ## References
 
 [1] [Stability selection]()
+
