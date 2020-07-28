@@ -1,5 +1,5 @@
 ---
-title: Stability Selection
+title: Stability Selection与重采样
 category: High dimensional statistics
 tags:
   - Concept and Theory
@@ -77,7 +77,7 @@ Büchlmann and Yu, 2002)
 
 和第一篇文章一样都是发在皇家统计学会的杂志上，提出了一个稳定性控制的变种：互补对稳定性控制，推导出了低入选概率的变量和高入选概率但被排除变量的期望界。
 
-## References
+---
 
-[1] [Stability selection]()
+抽样是一个已经在统计学及其相关领域中研究透彻的主题。
 
